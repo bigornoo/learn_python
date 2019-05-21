@@ -1,9 +1,7 @@
-prenom = "Pierre"
+liste=[]
+for i in range(5,16):
+    liste.append(i)
+print(liste)
 
-if type(prenom) is not int:
-    print('Chaine de caract')
-
-prenom = 0
-
-if type(prenom) is not int:
-    print('Chaine de caract')
+liste=[i for i in range(5,16)]
+print(liste)
